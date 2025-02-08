@@ -88,7 +88,7 @@ def get_recommendations(name, top_n=5):
 # Sidebar Components
 with st.sidebar:
     st.markdown("<h2 class='sidebar-title'>🔍 Find Your Next Meal</h2>", unsafe_allow_html=True)
-    st.image(Image.open('image.png'), width=150)
+    st.image(Image.open('image.png'), width=130)
     st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
     
     # Controls
